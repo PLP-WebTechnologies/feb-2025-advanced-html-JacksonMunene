@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>HTML5 Elements</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Basics</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg" alt="Beautiful Scenery from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, NY</td>
+            <td>+1 234 567 8901</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Park Ave, CA</td>
+            <td>+1 987 654 3210</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Brown</td>
+            <td>789 Elm St, TX</td>
+            <td>+1 345 678 9012</td>
+            <td>mikebrown@example.com</td>
+        </tr>
+        <tr>
+            <td>Lisa White</td>
+            <td>321 Oak St, FL</td>
+            <td>+1 654 321 0987</td>
+            <td>lisawhite@example.com</td>
+        </tr>
+        <tr>
+            <td>Tom Green</td>
+            <td>987 Pine St, WA</td>
+            <td>+1 765 432 1098</td>
+            <td>tomgreen@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="https://www.fesliyanstudios.com/play-mp3/396" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h3>Video</h3>
+<video width="500" controls>
+    <source src="https://cdn.pixabay.com/video/2015/10/18/1080-142790249_tiny.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
